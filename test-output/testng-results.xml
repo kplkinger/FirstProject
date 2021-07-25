@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="78" started-at="2021-07-23T11:35:10 IST" finished-at="2021-07-23T11:35:11 IST">
+  <suite name="Default suite" duration-ms="2807" started-at="2021-07-25T10:13:57 IST" finished-at="2021-07-25T10:14:00 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="78" started-at="2021-07-23T11:35:10 IST" finished-at="2021-07-23T11:35:11 IST">
-      <class name="applicationThree.ApplicationThreeScenario2">
-        <test-method status="PASS" signature="testplus()[pri:0, instance:applicationThree.ApplicationThreeScenario2@2d8f65a4]" name="testplus" duration-ms="13" started-at="2021-07-23T11:35:10 IST" finished-at="2021-07-23T11:35:11 IST">
+    <test name="Default test" duration-ms="2807" started-at="2021-07-25T10:13:57 IST" finished-at="2021-07-25T10:14:00 IST">
+      <class name="BasicRestAssured.Tests_Get">
+        <test-method status="PASS" signature="Test_1()[pri:0, instance:BasicRestAssured.Tests_Get@1b68ddbd]" name="Test_1" duration-ms="2759" started-at="2021-07-25T10:13:57 IST" finished-at="2021-07-25T10:14:00 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testplus -->
-        <test-method status="PASS" signature="testplustwo()[pri:0, instance:applicationThree.ApplicationThreeScenario2@2d8f65a4]" name="testplustwo" duration-ms="2" started-at="2021-07-23T11:35:11 IST" finished-at="2021-07-23T11:35:11 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testplustwo -->
-      </class> <!-- applicationThree.ApplicationThreeScenario2 -->
+        </test-method> <!-- Test_1 -->
+      </class> <!-- BasicRestAssured.Tests_Get -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
