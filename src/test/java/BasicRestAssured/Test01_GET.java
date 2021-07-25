@@ -40,6 +40,6 @@ public class Test01_GET {
 	@Test
 	void test_02() {
 		given().get("https://reqres.in/api/users?page=2").then().statusCode(200)
-		.body("body.id[0]", equalTo(7));
+		.body("body.id[0]", equalTo(null));
 		}
 }
